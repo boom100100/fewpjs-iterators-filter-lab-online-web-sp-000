@@ -5,7 +5,7 @@ function findMatching(drivers, searchValue){
   
 }
 
-function findMatching(drivers, searchValue){
+function fuzzyMatch(drivers, searchValue){
   
 }
 
