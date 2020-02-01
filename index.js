@@ -6,7 +6,7 @@ function findMatching(drivers, searchValue){
 }
 
 function fuzzyMatch(drivers, searchValue){
-  return drivers.filter(driver => driver.toLowerCase().substring(0,3) === searchValue.toLowerCase());
+  return drivers.filter(driver => driver.toLowerCase().substring(0,3) == searchValue.toLowerCase());
 }
 
 function matchName(drivers, searchValue){
